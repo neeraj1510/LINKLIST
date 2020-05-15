@@ -5,3 +5,4 @@ Linklist programs
 3) Delete the ith position element in Linklist
 4) insert at ith position in LL
 5) Length of LL recursively
+6) Insert node at ith position in LL recursively
