@@ -44,11 +44,11 @@ int find_index(struct Node *head1, int val)
 	
 	if(head1 == NULL)
 		return -1;
-	count++;
 	if(head1->data == val)
 	{
 		return count;
 	}
+	count++;
 	find_index(head1->next, val);
 	return count;
 }
@@ -81,8 +81,7 @@ int main()
 	head = r(head, 9);	
 	head = r(head, -1);	
 	printList(head);
-	head=NULL;
-	res = find_index(head, 3);
+	res = find_index(head, 6);
 	if(res ==  -1)
 	{
 		printf("Number not present\n");
