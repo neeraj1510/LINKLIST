@@ -12,3 +12,4 @@ Linklist programs
 10) remove duplicate in sorted LL
 11) remove duplicate node in unsort LL using hash
 12) remove duplicate node in unsort LL using pointers
+13) Print LL in reverse order
