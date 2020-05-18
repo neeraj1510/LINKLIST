@@ -9,3 +9,6 @@ Linklist programs
 7) Delete node at ith position in LL recursively
 8) find index in LL recursively
 9) Append Last n node at head in LL
+10) remove duplicate in sorted LL
+11) remove duplicate node in unsort LL using hash
+12) remove duplicate node in unsort LL using pointers
