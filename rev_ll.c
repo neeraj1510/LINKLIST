@@ -9,7 +9,6 @@ struct Node
 }; 
 
 
-struct Node *MY_HEAD, list;
 
 
 // A utility function to print a given linked list 
@@ -29,6 +28,7 @@ void printList(struct Node *head)
 	printf("NULL\n"); 
 } 
 
+/* Reverse Linklist iteratively */
 struct Node * rev(struct Node *head)
 {
 	struct Node *curr = head;
@@ -44,6 +44,7 @@ struct Node * rev(struct Node *head)
 	return prev;
 }
 
+/* Reverse Linklist recursively */
 struct Node * rev_recc(struct Node *head)
 {
 	if(head->next == NULL)
