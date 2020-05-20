@@ -14,4 +14,5 @@ Linklist programs
 12) remove duplicate node in unsort LL using pointers
 13) Print LL in reverse order
 14) Merge two sorted Linklist
-15) File rev_ll.c contain both method to reverse linklist : recursive and iterative 
+15) File rev_ll.c contain both method to reverse linklist : recursive and iterative
+16) Saperate out the even and odd values in the linklist, but the order will not changes(example 123456 => 135246) 
